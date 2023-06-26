@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>form</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="grid-king">
+    <header class="header">
+      <h1 class="article"> CPSC2125 Exams </h1>
+      <h3 class="article"> Happy Programing!!!</h3>
+    </header>
+    <header2 class="header2">
+      <img src="image/ao moi 5.png" height="350px">
+    </header2>
+
+    <nav class="nav">
+      <ul>
+        <a href='index.html'>Home</a> <br>
+        <a href='form.html'>Form</a> <br>
+        <a href='caption.html'>Tip calculator</a> <br>
+        <a href="https://www.w3schools.com/"> W3Schools</a>
+      </ul>
+    </nav>
+    <main class="main">
+      <form method="POST" action="https://webdevbasics.net/scripts/yoga.php">
+        <label for="fname">*First name:</label><br>
+        <input type="text" id="fname" name="First name" required><br>
+        <label for="lname">*Last name:</label><br>
+        <input type="text" id="lname" name="Last name" required><br>
+        <label for="state">State:</label> <br>
+        <select id="state" name="State">
+          <option value="OR">OR</option>
+          <option value="WA">WA</option>
+          <option value="CA">CA</option>
+        </select> <br>
+        <label for="email">*E-mail:</label><br>
+        <input type="email" id="email" name="Email" required><br>
+        <label for="start">Birthday:</label> <br>
+        <input type="date" id="start" name="Birthday" value="yyyy-mm-dd" min="1990-01-01" max="2023-12-31"> <br>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"> <br>
+        <label for="pass">Password</label><br>
+        <input type="password" id="pass" name="password" minlength="8" required> <br>
+        <label for="pass">Repeat Password</label><br>
+        <input type="password" id="second_pass" name="second_password" minlength="8" required> <br>
+        <input type="submit" />
+        </a>
+      </form>
+    </main>
+    <footer class="footer">
+      <p class="purple"> <i>This is a midterm exam of CPSC 2125 &copy </i> </p>
+      <a href="mailto:trankhaphia5@gmail.com">Click here to mail to me</a>
+      <p id="modified"></p>
+    </footer>
+    <script src="script.js"></script>
+
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  </div>
+</body>
+<script src="script.js"></script>
+<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>caption</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <div class="grid-king">
+    <header class="header">
+      <h1 class="article"> CPSC2125 Exams </h1>
+      <h3 class="article"> Happy Programing!!!</h3>
+    </header>
+    <header2 class="header2">
+      <img src="image/ao moi 5.png" height="350px">
+    </header2>
+
+    <nav class="nav">
+      <ul>
+        <a href='index.html'>Home</a> <br>
+        <a href='form.html'>Form</a> <br>
+        <a href='caption.html'>Tip calculator</a> <br>
+        <a href="https://www.w3schools.com/"> W3Schools</a>
+      </ul>
+    </nav>
+    <main class="main">
+      <caption class="waivy">Tip calculators</caption>
+      <form id="form_id">
+
+        <label for="foodtol">Enter a food total:</label>
+        <input type="text" id="foodtol" name="foodtol">
+        <br>
+        <div class="slidecontainer">
+          <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+          <p>Tip percentage: <span id="demo"></span></p>
+        </div>
+
+        <label>Tip amount:</label>
+        <span type="number" id="tipAmount"></span>
+        <br>
+        <br>
+        <label>Total bill:</label>
+        <span type="number" id="newBill"></span>
+        <br><br>
+        <button type='button' onclick="calculate();">Calculate</button>
+        <button onclick="reset();">Reset</button>
+      </form>
+
+
+    </main>
+
+
+
+
+    <footer class="footer">
+      <p class="purple"> <i>This is a midterm exam of CPSC 2125 &copy </i> </p>
+      <a href="mailto:trankhaphia5@gmail.com">Click here to mail to me</a>
+      <p id="modified"></p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
